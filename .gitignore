@@ -1,0 +1,23 @@
+# Spreadsheets / data
+*.csv
+*.xlsx
+*.xls
+*.ods
+*.tsv
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
