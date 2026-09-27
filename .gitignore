@@ -4,6 +4,7 @@
 *.xls
 *.ods
 *.tsv
+*.parquet
 
 # Database files
 *.db
