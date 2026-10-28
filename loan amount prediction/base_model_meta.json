@@ -148,13 +148,54 @@
     "Tangail",
     "Thakurgaon"
   ],
+  "gender": [
+    "Female",
+    "Male"
+  ],
+  "occupation": [
+    "Agriculture",
+    "Business",
+    "Housewife",
+    "Others",
+    "Self-Employed",
+    "Service"
+  ],
+  "home_owner_type": [
+    "Own",
+    "Rent",
+    "nan"
+  ],
+  "loan_Component": [
+    "AGROSOR",
+    "AGROSOR-MFCE",
+    "AGROSOR-RAISE",
+    "BUNIAD",
+    "ENRICH (IGA)",
+    "JAGORON",
+    "JAGORON (GOB)",
+    "LIVELIHOOD IMPROVEMENT LOAN -02",
+    "SAHOS",
+    "SEP (STREET FOOD)",
+    "SUFOLON",
+    "SUFOLON (SEASONAL)",
+    "WASH FOR HCD (HSL)",
+    "WASH FOR HCD (HWL)",
+    "WSS"
+  ],
   "features": [
     "monthly_income",
     "purpose",
     "land",
-    "family_size"
+    "family_size",
+    "earners",
+    "yearly_expenses",
+    "district",
+    "gender",
+    "occupation",
+    "home_owner_type",
+    "loan_Component"
   ],
-  "feature_set": "4 +family size",
+  "feature_set": "10 +loan_Component",
   "target_transform": "log1p",
-  "n_estimators": 2824
+  "n_estimators": 1439
 }
