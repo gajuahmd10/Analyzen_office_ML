@@ -1,0 +1,71 @@
+{
+  "track": "B",
+  "selected": [
+    "comp",
+    "te_pur_inc",
+    "inc_rel_prop",
+    "thana",
+    "te_prop",
+    "monthly_income",
+    "purpose",
+    "district",
+    "land_rel_thana",
+    "yearly_savings",
+    "te_thana_pg",
+    "exp_ratio",
+    "te_purpose",
+    "edu_ord",
+    "prop_inc_med",
+    "yearly_expenses",
+    "tb_pur_inc",
+    "occupation"
+  ],
+  "k_curve": [
+    {
+      "k": 6,
+      "val_MAE": 33316.8014,
+      "val_R2_log": 0.6707,
+      "val_within1": 0.5299
+    },
+    {
+      "k": 10,
+      "val_MAE": 32902.5612,
+      "val_R2_log": 0.6793,
+      "val_within1": 0.5361
+    },
+    {
+      "k": 14,
+      "val_MAE": 32587.5677,
+      "val_R2_log": 0.6837,
+      "val_within1": 0.5421
+    },
+    {
+      "k": 18,
+      "val_MAE": 32478.2747,
+      "val_R2_log": 0.6858,
+      "val_within1": 0.5421
+    },
+    {
+      "k": 24,
+      "val_MAE": 32472.0111,
+      "val_R2_log": 0.6862,
+      "val_within1": 0.5444
+    },
+    {
+      "k": 32,
+      "val_MAE": 32564.3973,
+      "val_R2_log": 0.6858,
+      "val_within1": 0.5421
+    },
+    {
+      "k": 55,
+      "val_MAE": 32487.6786,
+      "val_R2_log": 0.6907,
+      "val_within1": 0.544
+    }
+  ],
+  "dropped_duplicates": [
+    "dep_ratio",
+    "land_per_member"
+  ]
+}
